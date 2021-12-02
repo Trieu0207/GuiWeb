@@ -1,2 +1,0 @@
-# gameJsDemo
-Game Demo
