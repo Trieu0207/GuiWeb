@@ -1,0 +1,449 @@
+body{
+    background-color: rgb(0, 0, 0);
+  /*background-color: rgb(77, 77, 77);
+  /*background-color: rgb(136, 98, 146);*/
+/* background-color: rgb(47, 47, 122);*/
+}
+footer{
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 30px 50px;
+}
+
+
+
+
+
+a#ontop{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    display: block;
+    right: 80px;
+    bottom: 30px;
+    z-index: 10;
+}
+a#ontop img{
+    max-width: 100%;
+}
+
+
+div.area{
+    position: fixed;
+    display: flex;
+    z-index: 90;
+    right: -190px;
+    background-color: rgba(65, 65, 65, 0.7);
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+div.area:hover {
+    right: 0px;
+}
+div.button span{
+    bottom: auto;
+    background-color: rgb(194, 83, 83);
+    padding: 150px 0px;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+div.button{
+    width: 9%;
+    text-align: center;
+    margin-top: 300px;
+    
+}
+div.control{
+    width: 200px;
+    height: 630px;
+    background-color: rgba(7, 7, 7, 0.7);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+
+}
+ div.avt {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+div.avt img{
+    max-width: 100%;
+    border-radius: 50%;
+  
+}
+div.controlItem{
+    text-align: center;
+}
+div.controlItems{
+    margin-top: 30px;
+    height: 180px;
+}
+div.colors{
+    display: flexbox;
+}
+div.colors div.color{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+div.colors div.color div.colorItem{
+   width: 45%;
+   height: 65px;
+   border: 3px solid white;
+   border-radius: 10px;
+}
+div.colors div.color div.colorItem img{
+    border-radius: 10px;
+    max-width: 99%;
+}
+div.colors div.h1{
+    margin-top: 30px;
+   
+}
+div.colors div.h1 h1{
+    color: aliceblue;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.controlItem button{
+    width: 175px;
+    height: 35px;
+    font-size: 15px;
+    border: 0;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    background-color: rgb(223, 20, 20);
+    color: whitesmoke;
+    font-weight: bold;
+    
+}
+div.logo > span > h1{
+    color: #FF0000;
+    font-size: 70px;
+    padding: 0;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.input{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;   
+ }
+ div.input button img{
+     width: 20px;
+     margin-right: 3px;
+ }
+ div.input button{
+     padding: 5px;
+     width: 120px;
+     border-radius: 10px;
+     background-color: #e23030;
+     border: 0;
+     text-align: center;
+     font-size: 15px;
+     margin-right: 15px;
+ }
+ div.input input{
+     width: 300px;
+     border-radius: 10px;
+     background-color: rgba(59, 56, 56, 0.9);
+     border: 0;
+     margin-right: 5px;
+ }
+ div.input input::placeholder{
+     color: whitesmoke;
+     text-align: center;
+     font-size: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     opacity: 0.7;
+ }
+ input{
+     color: whitesmoke;
+     text-align: center;
+ }
+
+ div.header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+
+}
+div.header ul li{
+    width: 18%;
+    text-align: center;
+  
+    transition: all 0.3s ease-in-out;
+   
+}
+div.header ul li:hover{
+    width: 20%;
+    background-color: aliceblue;
+    
+    border-radius: 20px;
+    color: black;
+}
+div.header ul li:hover a{
+    color: black;
+    font-weight: bold;
+}
+div.header ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 2.5vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 95%;
+    margin: 23px auto;
+}
+div.tin1{
+    width: 80%;
+    height: 30vw;
+    margin: 10vw auto;
+    border-radius: 10px;
+  background-image: url(images/newHot/Tin1_1025.png);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+div.content1{
+    width: 80%;
+    right: 0;
+    top: 10%;
+    right: 10%;
+    height: 35vw;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    z-index: 50;
+    overflow: auto;
+    border-radius: 10px;
+}
+div.content1 div.text_content div{
+    width: 80%;
+    margin: auto;
+}
+div.content1 div.text_content div img{
+    width: 100%;
+}
+div.content1 div.text_content p:first-child{
+    font-size: 30px;
+    font-weight: bold;
+}
+div.content1 div.text_content p{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.content1 div.text_content{
+    margin: 50px;
+
+
+ 
+}
+div.content1 a{
+    color: #e23030;
+    text-decoration: none;
+    font-size: 3vw;
+    position: absolute;
+    right: 15px;
+}
+div.tin1{
+    margin: 0px auto;
+}
+div.tin1 img{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+    display: none;
+}
+
+div.tin1 > a :onclick{
+
+}
+div.tin1 > a {
+    top: 65%;
+    padding-left: 30px;
+    position: absolute;
+    font-size: 3vw;
+    color: aliceblue;
+    background: linear-gradient(to bottom,rgba(30,87,153,0) 0,rgba(0,0,0,.75) 40%,rgba(0,0,0,.78) 100%);
+    text-decoration: none;
+    z-index: 1;
+}
+div.interview div h1{
+    margin-left: 10px;
+    font-size: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+div.interview div p{
+    margin-left: 10px;
+    font-size: 2vw;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+div.interview div{
+   width: 30%;
+   border-radius: 10px;
+   background-color: rgba(88, 88, 88, 0.7);
+   text-align: start;
+   height: 38vw;
+   overflow: auto
+}
+div.interview{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+div.interview iframe{
+    width: 52vw;
+    height: 38vw;
+}
+div.ironMan{
+    width: 100%;
+    height: 14vw;
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+
+div.ironMan img{
+    height: 100%;
+    animation: run 5s  infinite;
+    position: absolute;
+      left: 0;
+}
+
+
+@keyframes run {
+  from{
+      left: 0%;
+  }
+  to{
+      left: 100%;
+  }
+}
+div.spider{
+    width: 100%;
+    height: 14vw;
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+}
+div.spider img{
+    height: 100%;
+    animation: run2 5s  infinite;
+    position: absolute;
+      right: 0;
+}
+div.hothot{
+    background-color: rgb(136, 136, 136,0.2);
+    border-radius: 10px;
+}
+
+@keyframes run2 {
+  from{
+    right: 0%;
+  }
+  to{
+    right: 100%;
+  }
+}
+div.flasHot{
+    text-align: center;
+    margin-top: 15px;
+    height: 79px;
+    overflow: hidden;
+    border-bottom: 1px solid white;
+}
+div.flasHot div.fhH1 a{
+    font-size: 25px;
+    padding: 20px 40px;
+    text-align: start;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.flasHot div.fhH1 a:hover{
+    color: #e23030;
+}
+div.flasHot iframe{
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+.seen{
+    color: rgb(72, 72, 255) !important;
+}
+
+.seen2{
+    color: rgb(72, 72, 255) !important;
+}
+
+.seen3{
+    color: rgb(72, 72, 255) !important;
+}
+
+@media screen and (max-width: 650px) {
+    a#ontop{
+        width: 40px;
+        height: 40px;
+    }
+    div.flasHot div.fhH1 a{
+        font-size: 15px;
+    }
+    div.logo span h1{
+        font-size: 12vw;
+    }
+    div.interview{
+        display: block;
+        background-color: rgba(56, 56, 56, 0.7);
+        margin-left: 20px;
+    }
+    div.interview div{
+        width: 90%;
+       
+    }
+    div.content1 {
+        height: 300px;
+    }
+    div.content1 div.text_content p:first-child{
+        font-size: 15px;
+      }
+      div.content1 div.text_content p{
+        font-size: 10px;
+      }
+    div.interview div h1{
+        font-size: 20px;
+    }
+    div.interview div p{
+        font-size: 15px;
+    }
+    div.interview iframe{
+        margin: auto;
+        width: 100%;
+        height: 200px;
+    }
+}
